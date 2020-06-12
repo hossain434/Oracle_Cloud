@@ -38,5 +38,7 @@ sudo bash -c 'echo This is my new web page running on Oracle Cloud Always Free c
 
 curl http://publicIPAddress:80
 
+Oracle Autonomous Database detail instructions:
+https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/tutorial-getting-started-autonomous-db/index.html
 
 
