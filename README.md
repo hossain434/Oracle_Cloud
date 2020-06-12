@@ -23,7 +23,8 @@ sudo docker run -d \
 -p 3457:80 \
 --name my-nginx \
 nginx 
-So nginx is rinning on docker!
+
+(So nginx is rinning on docker!)
 
 11.	curl http://publicIPAddress:3457
 12.	Setup webserver (This is not in docker): https://scriptingmysql.wordpress.com/2019/11/19/oracles-always-free-cloud-instance-adding-a-web-server-to-your-free-mysql-compute-instance-with-zero-monthly-charges/
