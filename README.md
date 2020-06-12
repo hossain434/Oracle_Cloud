@@ -27,7 +27,8 @@ nginx
 (So nginx is rinning on docker!)
 
 11.	curl http://publicIPAddress:3457
-12.	Setup webserver (This is not in docker): https://scriptingmysql.wordpress.com/2019/11/19/oracles-always-free-cloud-instance-adding-a-web-server-to-your-free-mysql-compute-instance-with-zero-monthly-charges/
+
+12.	Setup Apache HTTP Server(This is not in docker): https://scriptingmysql.wordpress.com/2019/11/19/oracles-always-free-cloud-instance-adding-a-web-server-to-your-free-mysql-compute-instance-with-zero-monthly-charges/
 sudo yum install httpd -y
 sudo apachectl start
 sudo systemctl enable httpd
@@ -37,6 +38,8 @@ sudo firewall-cmd –reload
 sudo bash -c 'echo This is my new web page running on Oracle Cloud Always Free compute instance > /var/www/html/index.html'
 
 curl http://publicIPAddress:80
+
+To setup new react application: build the app, rename the project folder to html and replace the html file at the VM location: /var/www/. Thats it!
 
 **********************
 
