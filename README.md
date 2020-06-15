@@ -153,4 +153,3 @@ http://<your-Vultr-server-IP>
 Reference: https://www.vultr.com/docs/how-to-install-jenkins-on-centos-7
 
 
-
