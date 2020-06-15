@@ -68,6 +68,7 @@ https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/tutorial-g
 16. Oracle Autonomous Data Warehouse detail instructions:
 https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/tutorial-getting-started-autonomous-db-adw/index.html
 
+
 # How to Install Jenkins on CentOS 7
 
 Jenkins is a popular open source CI (Continuous Integration) tool which is widely used for project development, deployment, and automation.
