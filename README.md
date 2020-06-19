@@ -153,4 +153,27 @@ http://<your-Vultr-server-IP>
 
 Reference: https://www.vultr.com/docs/how-to-install-jenkins-on-centos-7
 
+# Sample comands
+sudo lsof -i:8080
+sudo kill -9 PID
+sudo rm -rf /var/lib/jenkins/
+sudo yum install jenkins
+sudo yum autoremove jenkins
+sudo systemctl start jenkins
+sudo systemctl restart jenkins
+sudo systemctl enable jenkins
+sudo systemctl stop jenkins
+sudo lshw
+sudo lscpu
+ip address
+cp myfile.txt myfilecopy.txt
+
+sudo docker ps -a
+sudo docker images
+sudo docker rm <container id>
+sudo docker rmi <image id>
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo systemctl stop docker
+sudo systemctl status docker
 
