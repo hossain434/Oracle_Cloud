@@ -17,8 +17,8 @@ sudo systemctl enable docker
 
 10. Install and connect Alpine on docker:
 # docker pull alpine
-Usually, an Alpine Linux image doesn't contain bash, Instead you can use /bin/ash, /bin/sh, ash or only sh.
-/bin/ash
+##### Usually, an Alpine Linux image doesn't contain bash, Instead you can use /bin/ash, /bin/sh, ash or only sh.
+##### /bin/ash
 
 docker run -it --rm alpine /bin/ash
 /bin/sh
